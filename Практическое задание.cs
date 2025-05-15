@@ -13,24 +13,24 @@ namespace Task1
             };
 
             Console.Write("{");
-            for (int i = 0; i < mas.GetLength(0); i++)
+            for (int p = 0; p < mas.GetLength(0); p++)
             {
                 Console.Write("{");
-                for (int j = 0; j < mas.GetLength(1); j++)
+                for (int o = 0; o < mas.GetLength(1); o++)
                 {
                     Console.Write("{");
-                    for (int k = 0; k < mas.GetLength(2); k++)
+                    for (int n = 0; n < mas.GetLength(2); n++)
                     {
-                        Console.Write(mas[i, j, k]);
-                        if (k < mas.GetLength(2) - 1)
+                        Console.Write(mas[p, o, n]);
+                        if (n < mas.GetLength(2) - 1)
                             Console.Write(", ");
                     }
                     Console.Write("}");
-                    if (j < mas.GetLength(1) - 1)
+                    if (o < mas.GetLength(1) - 1)
                         Console.Write(", ");
                 }
                 Console.Write("}");
-                if (i < mas.GetLength(0) - 1)
+                if (p < mas.GetLength(0) - 1)
                     Console.Write(", ");
             }
             Console.WriteLine("}");
