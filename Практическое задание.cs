@@ -1,5 +1,5 @@
 
-namespace Task1
+namespace Task_1
 {
     class Program
     {
