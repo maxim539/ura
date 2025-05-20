@@ -9,9 +9,11 @@
 Ссылки на задания:
 
 Калькулятор
+
 папка: (https://github.com/maxim539/ura/blob/main/%D0%9A%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80/%D0%BA%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80.cs)
 
 Создание интерактивной новеллы с использованием бесконечного цикла:
+
 папка: (https://github.com/maxim539/ura/blob/main/%D0%9D%D0%BE%D0%B2%D0%B5%D0%BB%D0%BB%D0%B0/%D0%BD%D0%BE%D0%B2%D0%B5%D0%BB%D0%BB%D0%B0.cs)
 
 # Домашние задание про Методы
