@@ -45,17 +45,14 @@
 Задача 5: Удаление дубликатов из списка. Напишите метод, который принимает список и возвращает новый список без дубликатов.
 папка: (https://github.com/nnnsssttt/zadania/blob/main/5.cs)
 
-Задание 1 CodeRun: Юля, Никита и задачи
-папка: (https://github.com/nnnsssttt/zadania/blob/main/Code/CodePen/1.cs)
+Задачи CodeRun: (https://github.com/maxim539/ura/blob/main/Coderun/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%BA%D0%B8.cs)
 
-Задание 2 CodeRun: Треугольник
-папка: (https://github.com/nnnsssttt/zadania/blob/main/Code/CodePen/2.cs)
+Юля, Никита и задачи
 
-Задание 3 CodeRun: Больше своих соседей
-папка: (https://github.com/nnnsssttt/zadania/blob/main/Code/CodePen/3.cs)
+Треугольник
 
-Задание 4 CodeRun: Выставление тегов
-папка: (https://github.com/nnnsssttt/zadania/blob/main/Code/CodePen/4.cs)
+Больше своих соседей
 
-Задание 5 CodeRun: 29 задача аналитики
-папка: (https://github.com/nnnsssttt/zadania/blob/main/Code/CodePen/5.cs)
+Выставление тегов
+
+29 задача аналитики
