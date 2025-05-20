@@ -15,9 +15,9 @@ public class Task1
 }
 
 
-﻿using System;  // ЗАДАНИЕ 2
+using System;  // ЗАДАНИЕ 2
 
-public class TriangleCheck
+public class Task2
 {
     public static void Main(string[] args)
     {
@@ -37,10 +37,10 @@ public class TriangleCheck
 }
 
 
-﻿using System;  // ЗАДАНИЕ 3
+using System;  // ЗАДАНИЕ 3
 using System.Linq;
 
-public class CountElements
+public class Task3
 {
     public static void Main(string[] args)
     {
@@ -63,7 +63,7 @@ public class CountElements
 
 using System;   // ЗАДАНИЕ 4
 
-public class TagTime
+public class Task4
 {
     public static void Main(string[] args)
     {
@@ -92,11 +92,11 @@ public class TagTime
     }
 }
 
-﻿using System;  // ЗАДАНИЕ 5
+using System;  // ЗАДАНИЕ 5
 
 
 
-public class QuadraticEquation
+public class Task5
 {
     public static void Main(string[] args)
     {
