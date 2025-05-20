@@ -1,4 +1,4 @@
-using System;   // ЗАДНИЕ 1
+using System;   // ЗАДАНИЕ 1
 using System.Numerics;
 
 public class Task1
@@ -15,7 +15,7 @@ public class Task1
 }
 
 
-﻿using System;  // ЗАДНИЕ 2
+﻿using System;  // ЗАДАНИЕ 2
 
 public class TriangleCheck
 {
@@ -37,7 +37,7 @@ public class TriangleCheck
 }
 
 
-﻿using System;  // ЗАДНИЕ 3
+﻿using System;  // ЗАДАНИЕ 3
 using System.Linq;
 
 public class CountElements
@@ -61,7 +61,7 @@ public class CountElements
 
 
 
-using System;   // ЗАДНИЕ 4
+using System;   // ЗАДАНИЕ 4
 
 public class TagTime
 {
@@ -92,7 +92,7 @@ public class TagTime
     }
 }
 
-﻿using System;  // ЗАДНИЕ 5
+﻿using System;  // ЗАДАНИЕ 5
 
 
 
