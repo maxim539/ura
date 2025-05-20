@@ -1,14 +1,24 @@
 Домашние задание про Методы
+
 Вопрос 1|Ответ:B
+
 Вопрос 2|Ответ:A
+
 Вопрос 3|Ответ:B
+
 Вопрос 4|Ответ:B
+
 Вопрос 5|Ответ:A C
+
 Вопрос 6|Ответ:A
+
 Вопрос 7|Ответ:A D
 
+
 Практическая часть 
+
 Задача 1: 
+
 using System;
 using System.Collections.Generic;
 
@@ -33,6 +43,7 @@ public class Program
 }
 
 Задача 2:
+
 using System;
 
 public class Program
@@ -68,6 +79,7 @@ public class Program
 }
 
 Задача 3:
+
 using System.Numerics;
 
 public static BigInteger Factorial(int n)
@@ -84,6 +96,7 @@ public static BigInteger Factorial(int n)
 }
 
 Задача 4:
+
 using System.Linq;
 
 public static int FindMax(List<int> numbers)
@@ -92,6 +105,7 @@ public static int FindMax(List<int> numbers)
 }
 
 Задача 5:
+
 using System.Linq;
 
 public static List<T> RemoveDuplicates<T>(List<T> list)
