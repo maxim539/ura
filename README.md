@@ -1,118 +1,13 @@
-
-Практическая часть 
-
-Задача 1: 
-
-using System;
-using System.Collections.Generic;
-
-public class Program
-{
-    public static int SumNumbers(List<int> numbers)
-    {
-        int sum = 0;
-        foreach (int num in numbers)
-        {
-            sum += num;
-        }
-        return sum;
-    }
-    
-    public static void Main()
-    {
-        List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
-        int result = SumNumbers(numbers);
-        Console.WriteLine("Сумма чисел: " + result); // Выведет: 15
-    }
-}
-
-Задача 2:
-
-using System;
-
-public class Program
-{
-    public static bool IsPalindrome(string str)
-    {
-        // Удаляем пробелы и приводим к нижнему регистру для регистронезависимой проверки
-        string cleanedStr = str.Replace(" ", "").ToLower();
-        
-        int left = 0;
-        int right = cleanedStr.Length - 1;
-
-        while (left < right)
-        {
-            if (cleanedStr[left] != cleanedStr[right])
-            {
-                return false;
-            }
-            left++;
-            right--;
-        }
-        return true;
-    }
-
-    public static void Main()
-    {
-        string testStr1 = "А роза упала на лапу Азора";
-        string testStr2 = "hello";
-        
-        Console.WriteLine($"\"{testStr1}\" — палиндром? {IsPalindrome(testStr1)}"); // true
-        Console.WriteLine($"\"{testStr2}\" — палиндром? {IsPalindrome(testStr2)}"); // false
-    }
-}
-
-Задача 3:
-
-using System.Numerics;
-
-public static BigInteger Factorial(int n)
-{
-    if (n < 0)
-        throw new ArgumentException("Факториал определен только для неотрицательных чисел");
-    
-    BigInteger result = 1;
-    for (int i = 2; i <= n; i++)
-    {
-        result *= i;
-    }
-    return result;
-}
-
-Задача 4:
-
-using System.Linq;
-
-public static int FindMax(List<int> numbers)
-{
-    return numbers.Max();
-}
-
-Задача 5:
-
-using System.Linq;
-
-public static List<T> RemoveDuplicates<T>(List<T> list)
-{
-    return list.Distinct().ToList();
-}
-
-
-
-
-
-
-
-
-
-
 Домашняя работа по ОП.0.9 Основы алгоритмизации и программирования
+
 Работу выполнил: Китаев Максим Ипо-23-23
 
 Информация об версии движка
+
 Проект разработан на версии net. 8 под windows на фреммворке net.fremvork
 
 Ссылки на задания:
+
 Ваша задача — создать простой калькулятор, который сможет выполнять базовые арифметические операции: сложение, вычитание, умножение и деление, остаток от деления, инкремент, декремент. Калькулятор должен предоставлять пользователю возможность вводить числа и выбирать:
 папка: (https://github.com/maxim539/ura/blob/main/%D0%9A%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80/%D0%BA%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80.cs)
 
